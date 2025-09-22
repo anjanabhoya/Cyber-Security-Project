@@ -1,0 +1,192 @@
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::db3b:f085:aea0:a53c%8
+   IPv4 Address. . . . . . . . . . . : 192.168.46.116
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.46.1
+
+C:\Windows\System32>nmap -sS 192.168.46.0/24
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 16:45 +0530
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Stats: 0:51:05 elapsed; 236 hosts completed (19 up), 19 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 94.70% done; ETC: 17:39 (0:02:51 remaining)
+Stats: 0:56:20 elapsed; 236 hosts completed (19 up), 19 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 94.89% done; ETC: 17:44 (0:03:01 remaining)
+Stats: 1:29:05 elapsed; 236 hosts completed (19 up), 19 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.66% done; ETC: 18:15 (0:01:12 remaining)
+Stats: 1:29:06 elapsed; 236 hosts completed (19 up), 19 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.66% done; ETC: 18:15 (0:01:12 remaining)
+Stats: 1:55:07 elapsed; 236 hosts completed (19 up), 19 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.81% done; ETC: 18:40 (0:00:13 remaining)
+Nmap scan report for 192.168.46.1
+Host is up (0.014s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+1900/tcp open  upnp
+MAC Address: AC:15:A2:2D:35:FC (TP-Link Limited)
+
+Nmap scan report for 192.168.46.3
+Host is up (0.11s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE    SERVICE
+8402/tcp  filtered abarsd
+49152/tcp open     unknown
+62078/tcp open     iphone-sync
+MAC Address: B0:67:B5:CB:28:64 (Apple)
+
+Nmap scan report for 192.168.46.10
+Host is up (0.031s latency).
+All 1000 scanned ports on 192.168.46.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 52:52:81:52:AF:46 (Unknown)
+
+Nmap scan report for 192.168.46.17
+Host is up (0.050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 2A:1C:E3:91:E9:D4 (Unknown)
+
+Nmap scan report for 192.168.46.32
+Host is up (0.12s latency).
+All 1000 scanned ports on 192.168.46.32 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 50:C2:E8:D1:46:0D (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.46.33
+Host is up (0.27s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: BA:0A:BC:AA:31:3D (Unknown)
+
+Nmap scan report for 192.168.46.36
+Host is up (0.20s latency).
+All 1000 scanned ports on 192.168.46.36 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 24:79:F3:BB:F0:11 (Guangdong Oppo Mobile Telecommunications)
+
+Nmap scan report for 192.168.46.43
+Host is up (0.055s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: 82:63:87:2F:4F:83 (Unknown)
+
+Nmap scan report for 192.168.46.53
+Host is up (0.17s latency).
+All 1000 scanned ports on 192.168.46.53 are in ignored states.
+Not shown: 972 closed tcp ports (reset), 28 filtered tcp ports (no-response)
+MAC Address: 5A:CE:7E:3C:29:62 (Unknown)
+
+Nmap scan report for 192.168.46.95
+Host is up (0.14s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: FE:04:A2:C0:47:0C (Unknown)
+
+Nmap scan report for 192.168.46.102
+Host is up (0.047s latency).
+All 1000 scanned ports on 192.168.46.102 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: AA:41:E1:89:A4:D9 (Unknown)
+
+Nmap scan report for 192.168.46.120
+Host is up (0.077s latency).
+All 1000 scanned ports on 192.168.46.120 are in ignored states.
+Not shown: 816 filtered tcp ports (no-response), 184 closed tcp ports (reset)
+MAC Address: 3E:D5:15:F2:BE:93 (Unknown)
+
+Nmap scan report for 192.168.46.130
+Host is up (0.21s latency).
+All 1000 scanned ports on 192.168.46.130 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: CA:01:82:B9:CD:A3 (Unknown)
+
+Nmap scan report for 192.168.46.145
+Host is up (0.30s latency).
+All 1000 scanned ports on 192.168.46.145 are in ignored states.
+Not shown: 602 filtered tcp ports (no-response), 398 closed tcp ports (reset)
+MAC Address: 9A:51:5A:D3:58:4B (Unknown)
+
+Nmap scan report for 192.168.46.146
+Host is up (0.069s latency).
+All 1000 scanned ports on 192.168.46.146 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 28:2E:89:DB:D7:EB (Wistron Neweb)
+
+Nmap scan report for 192.168.46.185
+Host is up (0.11s latency).
+All 1000 scanned ports on 192.168.46.185 are in ignored states.
+Not shown: 958 closed tcp ports (reset), 42 filtered tcp ports (no-response)
+MAC Address: 92:55:10:5B:C5:E1 (Unknown)
+
+Nmap scan report for 192.168.46.206
+Host is up (0.030s latency).
+Not shown: 971 closed tcp ports (reset), 27 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 68:CA:C4:58:FA:D4 (Apple)
+
+Nmap scan report for 192.168.46.208
+Host is up (0.22s latency).
+All 1000 scanned ports on 192.168.46.208 are in ignored states.
+Not shown: 948 closed tcp ports (reset), 52 filtered tcp ports (no-response)
+MAC Address: AE:60:77:80:51:D0 (Unknown)
+
+Nmap scan report for 192.168.46.252
+Host is up (0.17s latency).
+Not shown: 985 closed tcp ports (reset)
+PORT      STATE    SERVICE
+32/tcp    filtered unknown
+89/tcp    filtered su-mit-tg
+617/tcp   filtered sco-dtmgr
+1024/tcp  filtered kdm
+1070/tcp  filtered gmrupdateserv
+1186/tcp  filtered mysql-cluster
+1216/tcp  filtered etebac5
+3017/tcp  filtered event_listener
+3404/tcp  filtered unknown
+4129/tcp  filtered nuauth
+4443/tcp  filtered pharos
+6025/tcp  filtered x11
+9502/tcp  filtered unknown
+9575/tcp  filtered unknown
+10628/tcp filtered unknown
+MAC Address: EA:C2:44:C2:14:4F (Unknown)
+
+Nmap scan report for 192.168.46.116
+Host is up (0.00029s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8090/tcp open  opsmessaging
+
+Nmap done: 256 IP addresses (20 hosts up) scanned in 7184.05 seconds
+
+C:\Windows\System32>
